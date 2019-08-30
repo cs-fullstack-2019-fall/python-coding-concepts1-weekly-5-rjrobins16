@@ -1,4 +1,6 @@
-Write in one or more topics for each question using the following topics: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class. If you get any error messages, copy and paste up to three of them in the boxes below.
+Write in one or more topics for each question using the following topics:
+Variables, Conditionals, For Loops, While Loops, Array, Function, and Class.
+If you get any error messages, copy and paste up to three of them in the boxes below.
 
 #1 Topic:_____
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
@@ -32,6 +34,10 @@ Error Messages:
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
 
 Error Messages:
+ File "test.py", line 58
+    print each
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(each)?
 
 
 
