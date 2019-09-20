@@ -12,30 +12,30 @@
 # ### Problem 1:
 # Ask a user for the year they were born by calculating their age.
 # Assuming they already had their birthday and it’s 2019 print “You are [AGE] years old”
-birthyear = int(input("Enter the year you were born."))
-age = 2019 - birthyear
-print(f"You are {age} years old.")
+# birthyear = int(input("Enter the year you were born."))
+# age = 2019 - birthyear
+# print(f"You are {age} years old.")
 
 
 # ### Problem 2:
 # Ask the user for a string. If they enter “Kenn”, “Kevin”, “Erin”, or
 # “Autumn” print “Hello Teacher”. Otherwise print “Hello Student”
 
-usersname = input("Enter your name")
+# usersname = input("Enter your name")
 
-if usersname == "Kenn" or usersname == "Autumn" or usersname == "Kevin" or usersname == "Erin":
-    print ("Hello Teacher")
-else:
-    print ("Hello Student")
+# if usersname == "Kenn" or usersname == "Autumn" or usersname == "Kevin" or usersname == "Erin":
+#     print ("Hello Teacher")
+# else:
+#     print ("Hello Student")
 
 
 # ### Problem 3:
 # Ask the user for a negative number. Print from 7 down to the user's
 # negative number. You must include the user's number.
 
-usersnumber= int(input("Enter a negative number."))
-for x in range(7,usersnumber-1,-1):
-    print (x)
+# usersnumber= int(input("Enter a negative number."))
+# for x in range(7,usersnumber-1,-1):
+#     print (x)
 
 
 # ### Problem 4:
@@ -43,30 +43,30 @@ for x in range(7,usersnumber-1,-1):
 # between the two numbers ask them to do it again until they get it right.
 # Afterward they print the correct number, print "Good job"
 
-usersnumber2 = int(input("Enter a number between -10 to -5."))
-while usersnumber2 <= -11 or usersnumber2 >= -4:
-    usersnumber2 = int(input("Enter a number between -10 to -5."))
+# usersnumber2 = int(input("Enter a number between -10 to -5."))
+# while usersnumber2 <= -11 or usersnumber2 >= -4:
+#     usersnumber2 = int(input("Enter a number between -10 to -5."))
 
-print ("Good Job!")
+# print ("Good Job!")
 
 
 # ### Problem 5:
 # Create the list: squad = ["One", "Two", "Three", "Four", "Five"].
 # Print the list in reverse without using a list method.
 
-squad = ["One", "Two", "Three", "Four", "Five"]
-print(squad[6:0:-1])
-#dont remember how to do this backwards
+# squad = ["One", "Two", "Three", "Four", "Five"]
+# print(squad[4:0:-1])
+# dont remember how to do this backwards
 
 # ### Problem 6:
 # Create a function that will have the string firstName as a parameter.
 # In the function ask the user for their last name. Print "Hello [FIRST & LAST NAME]" in the function. Call that function
 
-def prob6(first):
-    userlastname = input("Enter your last name.")
-    print(f"Hello {first} {userlastname}!")
+# def prob6(first):
+#     userlastname = input("Enter your last name.")
+#     print(f"Hello {first} {userlastname}!")
 
-prob6("Rachel")
+# prob6("Rachel")
 
 # ### Problem 7:
 # Create the class Books with  properties/attributes.
@@ -75,52 +75,52 @@ prob6("Rachel")
 # names of the books using any method we’ve learned in class.
 
 
-class Books:
-    def __init__(self, name, rating, genre, author):
-        self.name = name
-        self.rating = rating
-        self.genre = genre
-        self.author = author
+# class Books:
+#     def __init__(self, name, rating, genre, author):
+#         self.name = name
+#         self.rating = rating
+#         self.genre = genre
+#         self.author = author
 
-    def changeRating(self,newrating):
-        self.rating = newrating
+#     def changeRating(self,newrating):
+#         self.rating = newrating
 
 
-book1 = Books("Cat in Hat", 4, "PG", "Suess")
-book2 = Books("XXX", 5, "PG", "Sally")
-book3 = Books("Tina", 4, "G", "Me")
+# book1 = Books("Cat in Hat", 4, "PG", "Suess")
+# book2 = Books("XXX", 5, "PG", "Sally")
+# book3 = Books("Tina", 4, "G", "Me")
 
-bookarray = [book1,book2,book3]
-#for loop prints each book name only!
-for eachbook in bookarray:
-    print(eachbook.name)
+# bookarray = [book1,book2,book3]
+# #for loop prints each book name only!
+# for eachbook in bookarray:
+#     print(eachbook.name)
 
 # ### Problem 8:
 # Create a function that asks the user to enter a number. If the number is between and include
 # -50 and 5, return "Funds too low". If the number is between 5 and 50, return “You should add more funds.”
 # If the number is more than 50, return “Just enough.”
-def problem8():
-    usernumber8 = int(input("Enter a number."))
-    if usernumber8 <-50 and usernumber8 > 5:
-        return "Funds too low"
-    if usernumber8 > 5 and usernumber8 > 50:
-        return "You should add more funds"
-    elif usernumber8 > 50:
-        return "Just enough"
+# def problem8():
+#     usernumber8 = int(input("Enter a number."))
+#     if usernumber8 <-50 and usernumber8 > 5:
+#         return "Funds too low"
+#     if usernumber8 > 5 and usernumber8 > 50:
+#         return "You should add more funds"
+#     elif usernumber8 > 50:
+#         return "Just enough"
 
-print(problem8())
+# print(problem8())
 
 #
 # ### Problem 9:
 # Ask the user for a positive number. Create an empty array and starting from zero, add each number
 # by 1 into the array. Print EACH ELEMENT of the array.
-usernum9 = int(input("Enter a number."))
-emptyarray = []
-for x in range(0,usernum9+1,1):
-    emptyarray.append(x)
+# usernum9 = int(input("Enter a number."))
+# emptyarray = []
+# for x in range(0,usernum9+1,1):
+#     emptyarray.append(x)
 
-for eachElement9 in emptyarray:
-    print (eachElement9)
+# for eachElement9 in emptyarray:
+#     print (eachElement9)
 
 
 #
